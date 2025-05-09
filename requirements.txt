@@ -2,7 +2,7 @@ python-dotenv
 nltk
 groq
 pathlib
-fitz  
+pymupdf  
 bs4
 requests
 spacy
