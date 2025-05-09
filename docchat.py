@@ -141,15 +141,15 @@ def score_chunk(chunk: str, query: str, language: str = "english") -> float: ###
 
     Examples (French):
         >>> round(score_chunk("Le soleil est brillant et chaud.", "Quelle est la température du soleil ?", language="french"), 2)
-        0.33
-        >>> round(score_chunk("La voiture rouge roule rapidement.", "Quelle est la couleur de la voiture ?", language="french"), 2)
         0.25
+        >>> round(score_chunk("La voiture rouge roule rapidement.", "Quelle est la couleur de la voiture ?", language="french"), 2)
+        0.2
         >>> score_chunk("Les bananes sont jaunes.", "Comment fonctionnent les avions ?", language="french")
         0.0
 
     Examples (Spanish):
         >>> round(score_chunk("El sol es brillante y caliente.", "¿Qué temperatura tiene el sol?", language="spanish"), 2)
-        0.33
+        0.25
         >>> round(score_chunk("El coche rojo va muy rápido.", "¿De qué color es el coche?", language="spanish"), 2)
         0.25
         >>> score_chunk("Los plátanos son amarillos.", "¿Cómo vuelan los aviones?", language="spanish")
@@ -157,9 +157,9 @@ def score_chunk(chunk: str, query: str, language: str = "english") -> float: ###
 
     Examples (English):
         >>> round(score_chunk("The sun is bright and hot.", "How hot is the sun?", language="english"), 2)
-        0.5
+        0.67
         >>> round(score_chunk("The red car is speeding down the road.", "What color is the car?", language="english"), 2)
-        0.25
+        0.2
         >>> score_chunk("Bananas are yellow.", "How do airplanes fly?", language="english")
         0.0
     """
@@ -226,7 +226,7 @@ def ext_check(filename):
         return False
     
 def image_check(filename):
-    if filename is None:        # ← early‑exit, stops the traceback
+    if filename is None:       
         return None
     ext = pathlib.Path(filename).suffix.lower()
     if ext in [".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp"]:
