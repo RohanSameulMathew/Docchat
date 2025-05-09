@@ -20,12 +20,9 @@ result= "Shiver me timbers! The joke be funny because it’s a clever play on th
 
 In the second run, the assistant mistakenly recycled its prior explanation about a programmer‑error joke rather than addressing the Spiderman comic strip, showing how context can get mis‑applied.
 
-## Demo
+## Demo Video
 
-<video width="600" controls>
-  <source src="./IMG_2827.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
+[▶️ Watch the demo](./IMG_2827.mp4)
 
 
 Work in progress
