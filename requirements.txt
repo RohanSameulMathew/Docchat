@@ -2,7 +2,6 @@ readline
 python-dotenv
 nltk
 groq
-argparse
 pathlib
 fitz  
 bs4
@@ -10,6 +9,4 @@ requests
 spacy
 typing
 pprint
-mimetypes
-base64
 playsound3
