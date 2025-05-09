@@ -2,7 +2,6 @@ readline
 python-dotenv
 nltk
 groq
-os
 argparse
 pathlib
 fitz  
