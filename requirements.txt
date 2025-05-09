@@ -1,5 +1,5 @@
 readline
-dotenv
+python-dotenv
 nltk
 groq
 os
