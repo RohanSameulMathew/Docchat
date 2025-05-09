@@ -20,4 +20,16 @@ result= "Shiver me timbers! The joke be funny because it’s a clever play on th
 
 In the second run, the assistant mistakenly recycled its prior explanation about a programmer‑error joke rather than addressing the Spiderman comic strip, showing how context can get mis‑applied.
 
+## Demo
 
+<video width="600" controls>
+  <source src="./IMG_2827.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+Work in progress
+- update rag logic
+- upload mp4 demo (ran out of tokens)
+- speech to text
+- unable to load terminal video, screen recording error
