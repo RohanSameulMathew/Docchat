@@ -1,0 +1,193 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/rohanmathew/Documents/GitHub/docchat
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 179
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 22
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1026
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034hRohans-MacBook-Air-7:docchat rohanmathew$ "
+  - delay: 3060
+    content: d
+  - delay: 144
+    content: o
+  - delay: 155
+    content: c
+  - delay: 177
+    content: c
+  - delay: 82
+    content: h
+  - delay: 168
+    content: a
+  - delay: 103
+    content: t
+  - delay: 427
+    content: ','
+  - delay: 791
+    content: "\b\e[K"
+  - delay: 486
+    content: .
+  - delay: 129
+    content: p
+  - delay: 209
+    content: 'y'
+  - delay: 498
+    content: "\r\nbash: docchat.py: command not found\r\nRohans-MacBook-Air-7:docchat rohanmathew$ "
+  - delay: 3521
+    content: p
+  - delay: 362
+    content: 'y'
+  - delay: 206
+    content: t
+  - delay: 96
+    content: h
+  - delay: 128
+    content: o
+  - delay: 160
+    content: 'n'
+  - delay: 388
+    content: '3'
+  - delay: 150
+    content: ' '
+  - delay: 676
+    content: d
+  - delay: 132
+    content: o
+  - delay: 135
+    content: c
+  - delay: 165
+    content: c
+  - delay: 101
+    content: h
+  - delay: 130
+    content: a
+  - delay: 146
+    content: t
+  - delay: 657
+    content: .
+  - delay: 310
+    content: p
+  - delay: 223
+    content: 'y'
+  - delay: 160
+    content: "\r\n"
+  - delay: 1817
+    content: "Traceback (most recent call last):\r\n  File \"/Users/rohanmathew/Documents/GitHub/docchat/docchat.py\", line 10, in <module>\r\n    import fitz  # PyMuPDF\r\n    ^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/fitz/__init__.py\", line 1, in <module>\r\n    from frontend import *\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/frontend/__init__.py\", line 1, in <module>\r\n    from .events import *\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/frontend/events/__init__.py\", line 1, in <module>\r\n    from .clipboard import *\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/frontend/events/clipboard.py\", line 2, in <module>\r\n    from ..dom import Event\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/frontend/dom.py\", line 439, in <module>\r\n    from . import dispatcher\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/frontend/dispatcher.py\", line 15, in <module>\r\n    from . import config, server\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/frontend/server.py\", line 24, in <module>\r\n    app.mount(config.STATIC_ROUTE, StaticFiles(directory=config.STATIC_DIRECTORY), name=config.STATIC_NAME)\r\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/staticfiles.py\", line 56, in __init__\r\n    raise RuntimeError(f\"Directory '{directory}' does not exist\")\r\nRuntimeError: Directory 'static/' does not exist\r\n"
+  - delay: 80
+    content: 'Rohans-MacBook-Air-7:docchat rohanmathew$ '
+  - delay: 2826
+    content: e
+  - delay: 163
+    content: x
+  - delay: 68
+    content: i
+  - delay: 225
+    content: t
+  - delay: 178
+    content: "\r\nlogout\r\n"
