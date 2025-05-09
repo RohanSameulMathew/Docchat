@@ -1,4 +1,3 @@
-readline
 python-dotenv
 nltk
 groq
